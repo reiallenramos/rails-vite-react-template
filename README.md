@@ -1,25 +1,19 @@
-# README
+# Boilerplate for Rails 8 with React and Vite
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Usage
+Start the Vite development server:
+```bash
+bin/vite dev
+```
 
-Things you may want to cover:
+Start the Rails server:
+```bash
+bin/rails server
+```
 
-* Ruby version
+## Development tools
+:white_check_mark: React 18
+:white_check_mark: Vite 5
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# rails-vite-react-template
+## Design System
+:white_check_mark: [Atlassian Design System](https://atlassian.design/get-started/develop/composition)
