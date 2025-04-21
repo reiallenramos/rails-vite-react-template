@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Hello from './hello_world.jsx';
+import ButtonDefaultExample from './button-default-example';
 
-class App extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <Hello />
-      </React.Fragment>
-    );
-  }
-}
+const App = () => {
+  return (
+    <React.Fragment>
+      <ButtonDefaultExample />
+    </React.Fragment>
+  );
+};
 
 const container = document.getElementById('root');
 const root = createRoot(container);
