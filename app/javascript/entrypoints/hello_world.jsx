@@ -4,7 +4,7 @@ class Hello extends Component {
   render() {
     return (
       <div>
-        <h1>hello heydffdfddfasdf</h1>
+        <h1>Hello from inside the component!</h1>
       </div>
     );
   }

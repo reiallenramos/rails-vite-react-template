@@ -15,7 +15,3 @@ class App extends Component {
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(<App />);
-
-if (import.meta.hot) {
-  import.meta.hot.accept(); // Enable HMR for this module
-}
